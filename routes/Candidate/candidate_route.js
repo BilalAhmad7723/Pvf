@@ -16,7 +16,6 @@ router.route('/get_candidates').get((req, res, next) => {
 
 
 router.route('/add-candidates').post((req, res, next) => {
-  console.log("Add Candidate1"+ req.body.edu);
   canidateSchema.create(req.body, (error, data) => {
     if (error) {
       return next(error)
