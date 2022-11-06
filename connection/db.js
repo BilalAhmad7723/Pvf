@@ -1,3 +1,4 @@
 module.exports = {
-    database : 'mongodb+srv://PVF:1234@pakistanvotersfront.bjxhs.mongodb.net/PVF?retryWrites=true&w=majority' //CloudDB
+    database : 'mongodb+srv://aes:1234@aes.4elfjgm.mongodb.net/abroad_education?retryWrites=true&w=majority' //CloudDB  
 };
+
