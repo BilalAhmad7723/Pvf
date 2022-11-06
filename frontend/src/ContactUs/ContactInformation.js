@@ -9,6 +9,7 @@ const ContactInformation = () => {
 		message.success(msg);
 	  };
 	  const error1 = (msg) => {
+		
 		message.error(msg);
 	  };
 
